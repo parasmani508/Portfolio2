@@ -30,9 +30,9 @@ const Contact = () => {
             );
           })}
           <div className="social_icons">
-            {socialIcons.map((socialIcon, index) => {
-              return <div key={index}>{socialIcon}</div>;
-            })}
+            {/* {socialIcons.map((socialIcon, index) => { */}
+              {/* return <div key={index}>{socialIcon}</div>; */}
+            {/* })} */}
           </div>
         </motion.div>
         <motion.div
@@ -42,7 +42,7 @@ const Contact = () => {
           className="contact_right"
         >
           <h3>Get In Touch</h3>
-          <form action="https://formspree.io/f/mjvqwzoa" method="POST" enctype="multipart/form-data">
+          <form action="https://formspree.io/f/xnqklaav" method="POST" enctype="multipart/form-data">
             <div className="row">
               <input type="text" name="fname" placeholder="First Name" autoComplete="off" required />
               <input type="text"name="lname"  placeholder="Last Name" autoComplete="off" required />

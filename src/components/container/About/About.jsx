@@ -40,9 +40,9 @@ const About = () => {
                 transition={{duration :1}}
         className="about_right">
           <p className="p">
-            I am a student of computer science at the College of Engineering
+            I am Paras kumar from the College of Engineering
             Roorkee. I have a impatient interest in making front-end designs in
-            web development and have a skill set in web development- React.js.
+            web development and have a skill set in web development- MERN STACK.
           </p>
           {bios.map((bio) => {
             return(
@@ -56,12 +56,12 @@ const About = () => {
             );
           })}
            
-          <motion.a href="https://app.luminpdf.com/viewer/64eb9ce371e1c71aba926869" download=""
+          <motion.a href="https://app.luminpdf.com/viewer/662f68f3e0c606c5d3e3c203" download="resume.pdf"
           
           whileHover={{ scale: 1.1 }}
           variants={moveVariants}
           animate="animation">
-            Download Resume
+            Download Resume    
           </motion.a>
         </motion.div>
       </div>

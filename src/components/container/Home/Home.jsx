@@ -1,5 +1,6 @@
 import React from 'react'
 import portfolio from "../../../assets/portfolio.jpg"
+// import amit from '../../../assets/amit.jpg'
 import "./Home.scss"
 import { motion } from 'framer-motion'
 
